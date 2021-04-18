@@ -1,0 +1,1 @@
+# Artigo_Hierarquia_de_Memorias
