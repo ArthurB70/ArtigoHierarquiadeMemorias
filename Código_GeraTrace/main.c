@@ -62,7 +62,6 @@ int main(void) {
       rewind(file_aux);
       int ind_rand = (rand() % quantidade_enderecos);
       char *buffer;
-      int buff;
       buffer = (char*)calloc(100, sizeof(char));
       for(int i =0; i<ind_rand; i++){
         fscanf(file_aux, "%s",buffer);
